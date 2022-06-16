@@ -1,0 +1,26 @@
+{
+  "name": "team-generator",
+  "version": "1.0.0",
+  "description": "A command line app that builds a team of members from user input and displays them ona  webpage",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mlmcgeenc/team-generator.git"
+  },
+  "author": "Matt McGee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mlmcgeenc/team-generator/issues"
+  },
+  "homepage": "https://github.com/mlmcgeenc/team-generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "jest": "^28.1.1"
+  }
+}
