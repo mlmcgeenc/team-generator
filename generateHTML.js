@@ -3,7 +3,7 @@ const fs = require('fs');
 const createManagerCard = (managerInfo) => {
 	console.log(managerInfo);
 	return `
-  <div class="card shadow m-3" style="width: 18rem;">
+  <div class="card p-0 shadow m-3" style="width: 18rem;">
     <div class="card-header bg-primary text-light">
       <h3>${managerInfo.name}</h3>
       <h5><i class="fa-solid fa-mug-hot"></i> Manager</h5>
@@ -23,7 +23,7 @@ const createEngineerCards = (engineerList) => {
 	return engineerList
 		.map((engineer) => {
 			return `
-    <div class="card shadow m-3" style="width: 18rem;">
+    <div class="card p-0 shadow m-3" style="width: 18rem;">
     <div class="card-header bg-primary text-light">
       <h3>${engineer.name}</h3>
       <h5><i class="fa-solid fa-glasses"></i> Engineer</h5>
@@ -45,7 +45,7 @@ const createInternCards = (internList) => {
 	return internList
 		.map((intern) => {
 			return `
-    <div class="card shadow m-3" style="width: 18rem;">
+    <div class="card p-0 shadow m-3" style="width: 18rem;">
     <div class="card-header bg-primary text-light">
       <h3>${intern.name}</h3>
       <h5><i class="fa-solid fa-graduation-cap"></i> Intern</h5>
@@ -75,10 +75,12 @@ function generateHTML(company) {
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
 </head>
 <body>
-<div class="container card-group">
+<div class="container">
+  <div class="row justify-content-center">
   ${createManagerCard(company.manager)}
   ${createEngineerCards(company.engineers)}
   ${createInternCards(company.interns)}
+  </div>
 </div>
 </body>
 <script src="https://kit.fontawesome.com/c20b00daf3.js" crossorigin="anonymous"></script>
