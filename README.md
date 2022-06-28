@@ -14,6 +14,11 @@
 ## Description
 A small Node app that takes user input about a team and generates an HTML page to display that information
 
+
+https://user-images.githubusercontent.com/51179862/176189799-5b7a80b3-e477-4091-977b-ec855e50fec9.mov
+
+
+
 ## Installation
 Download the app folder to any directory on your computer of your choice
 
