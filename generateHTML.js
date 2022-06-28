@@ -1,7 +1,6 @@
 const fs = require('fs');
 
 const createManagerCard = (managerInfo) => {
-	console.log(managerInfo);
 	return `
   <div class="card p-0 shadow m-3" style="width: 18rem;">
     <div class="card-header bg-primary text-light">
@@ -75,8 +74,11 @@ function generateHTML(company) {
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
 </head>
 <body>
+<div class="bg-danger text-light text-center p-5">
+  <h1>My Team</h1>
+</div>
 <div class="container">
-  <div class="row justify-content-center">
+  <div class="row justify-content-center mt-5">
   ${createManagerCard(company.manager)}
   ${createEngineerCards(company.engineers)}
   ${createInternCards(company.interns)}

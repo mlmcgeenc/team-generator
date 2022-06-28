@@ -149,7 +149,6 @@ const makeNewIntern = (name, id, email, special) => {
 
 const endTeamBuilding = () => {
 	console.log('Finished building the team');
-  console.log(company)
   generateHTML(company)
 };
 
