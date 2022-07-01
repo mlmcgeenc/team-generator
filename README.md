@@ -14,10 +14,7 @@
 ## Description
 A small Node app that takes user input about a team and generates an HTML page to display that information
 
-
 https://user-images.githubusercontent.com/51179862/176189799-5b7a80b3-e477-4091-977b-ec855e50fec9.mov
-
-
 
 ## Installation
 Download the app folder to any directory on your computer of your choice
@@ -33,6 +30,8 @@ I am not accepting contributions for this project at this time
 
 ## Tests
 This project includes tests for the class constructors
+
+https://user-images.githubusercontent.com/51179862/176911003-8a59ead9-10b0-4f26-ae95-8d968405f5c8.mov
 
 ## Questions/Contact
 [github.com/mlmcgeenc](https://github.com/mlmcgeenc)  
